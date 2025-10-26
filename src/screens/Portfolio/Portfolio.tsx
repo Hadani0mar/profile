@@ -133,44 +133,44 @@ export const Portfolio = (): JSX.Element => {
         </nav>
       </header>
 
-      <section className="absolute top-[246px] left-[461px]">
-        <div className="absolute top-0 left-[246px] w-[245px] h-5 flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-[19px] text-center leading-[19px] whitespace-nowrap">
-          <span className="text-white tracking-[0] leading-[0.1px]">
+      <section className="absolute top-[246px] left-[461px] z-10">
+        <div className="absolute top-0 left-[246px] w-auto h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-medium text-[19px] text-center leading-[28px] whitespace-nowrap">
+          <span className="text-white tracking-[0.38px]">
             Hello! I Am{" "}
           </span>
-          <span className="text-[#7127ba] tracking-[-0.10px] leading-[97px]">
+          <span className="text-[#7127ba] tracking-[0.38px] font-bold">
             Ibrahim Memon
           </span>
         </div>
 
         <img
-          className="absolute top-[-22px] left-[143px] w-[121px] h-[118px]"
+          className="absolute top-[-22px] left-[143px] w-[121px] h-[118px] z-5"
           alt="Arrow"
           src="/arrow.png"
         />
 
-        <div className="absolute top-[106px] left-[266px] h-[126px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-[50px] tracking-[1.00px] leading-[35.1px]">
+        <div className="absolute top-[106px] left-[266px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-bold text-[50px] tracking-[1.00px] leading-[60px]">
           <span className="text-white tracking-[0.50px]">
             Judges a book
             <br />
             by its{" "}
           </span>
-          <span className="text-[#7127ba] tracking-[0.50px]">cover</span>
+          <span className="text-[#7127ba] tracking-[0.50px] font-extrabold">cover</span>
           <span className="text-white tracking-[0.50px]">...</span>
         </div>
 
-        <div className="absolute top-[78px] left-[266px] h-[31px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-[17px] text-center tracking-[0.34px] leading-[normal] underline">
+        <div className="absolute top-[78px] left-[266px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-medium text-white text-[17px] text-center tracking-[0.34px] leading-[26px] underline decoration-white/70 underline-offset-4">
           A Designer who
         </div>
 
-        <div className="absolute top-[235px] left-[266px] h-5 flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-[11px] text-center tracking-[0.22px] leading-[normal]">
+        <div className="absolute top-[240px] left-[266px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white/90 text-[11px] text-center tracking-[0.44px] leading-[18px]">
           Because if the cover does not impress you what else can?
         </div>
 
-        <div className="absolute top-[197px] left-[416px] w-[189px] h-[58px] rounded-[94.29px/28.95px] border border-solid border-white rotate-[-4.74deg]" />
+        <div className="absolute top-[197px] left-[416px] w-[189px] h-[58px] rounded-[94.29px/28.95px] border-2 border-solid border-white rotate-[-4.74deg]" />
       </section>
 
-      <div className="absolute top-[306px] left-[461px] w-[258px] h-[259px] flex rounded-[129px/129.5px] [background:radial-gradient(50%_50%_at_50%_50%,rgba(255,255,255,1)_18%,rgba(67,67,67,0)_100%)]">
+      <div className="absolute top-[306px] left-[461px] w-[258px] h-[259px] flex rounded-[129px/129.5px] [background:radial-gradient(50%_50%_at_50%_50%,rgba(255,255,255,1)_18%,rgba(67,67,67,0)_100%)] z-10">
         <img
           className="mt-[5.7px] w-[165px] h-[223px] ml-12 object-cover"
           alt="Profile"
@@ -178,22 +178,22 @@ export const Portfolio = (): JSX.Element => {
         />
       </div>
 
-      <div className="absolute top-[661px] left-[474px] w-[674px] h-[90px] [font-family:'Preahvihear',Helvetica] text-white font-normal text-[50px] tracking-[1.00px] leading-[normal] flex items-center justify-center">
+      <div className="absolute top-[661px] left-[474px] w-[674px] h-auto [font-family:'Preahvihear',Helvetica] text-white font-bold text-[50px] tracking-[1.00px] leading-[70px] flex items-center justify-center z-10">
         I&#39;m a Software Engineer.|
       </div>
 
-      <div className="absolute top-[737px] left-[474px] w-[575px] h-[38px]">
-        <div className="absolute top-0 left-0 w-[573px] h-[38px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-[21px] tracking-[0.42px] leading-[normal]">
-          <span className="text-white tracking-[0.09px]">
-            Currently, I&#39;m a Software Engineer at&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+      <div className="absolute top-[750px] left-[474px] w-[575px] h-auto z-10">
+        <div className="flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-medium text-[21px] tracking-[0.42px] leading-[32px] gap-2">
+          <span className="text-white/95 tracking-[0.21px]">
+            Currently, I&#39;m a Software Engineer at
           </span>
-          <span className="text-[#1877f2] tracking-[0.09px]">Facebook</span>
-          <span className="text-white tracking-[0.09px]">,</span>
+          <div className="w-5 h-[21px] bg-[url(/image-8.png)] bg-cover bg-[50%_50%]" />
+          <span className="text-[#1877f2] tracking-[0.21px] font-bold">Facebook</span>
+          <span className="text-white/95 tracking-[0.21px]">,</span>
         </div>
-        <div className="absolute top-2 left-[429px] w-5 h-[21px] bg-[url(/image-8.png)] bg-cover bg-[50%_50%]" />
       </div>
 
-      <div className="absolute top-[845px] left-[477px] w-[892px] h-[120px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-[22px] tracking-[0.44px] leading-[normal]">
+      <div className="absolute top-[860px] left-[477px] w-[892px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white/90 text-[22px] tracking-[0.44px] leading-[36px] text-center z-10">
         A self-taught UI/UX designer, functioning in the industry for 3+ years
         now.
         <br />I make meaningful and delightful digital products that create an
@@ -202,8 +202,8 @@ export const Portfolio = (): JSX.Element => {
         between user needs and business goals.
       </div>
 
-      <section className="absolute top-[1135px] left-[463px]">
-        <h2 className="h-[72px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-[40px] tracking-[0.80px] leading-[normal]">
+      <section className="absolute top-[1135px] left-[463px] z-10">
+        <h2 className="h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-bold text-white text-[40px] tracking-[0.80px] leading-[56px] mb-8">
           Work Experience
         </h2>
 
@@ -294,18 +294,18 @@ export const Portfolio = (): JSX.Element => {
         </div>
       </section>
 
-      <section className="absolute top-[1817px] left-[598px] w-[895px] h-[754px]">
-        <div className="absolute top-0 left-[123px] h-[65px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-2xl text-center tracking-[0.48px] leading-[31px]">
-          <span className="tracking-[0.12px]">
+      <section className="absolute top-[1817px] left-[598px] w-[895px] h-[754px] z-10">
+        <div className="absolute top-0 left-[123px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-medium text-white/95 text-2xl text-center tracking-[0.48px] leading-[36px]">
+          <span className="tracking-[0.24px]">
             I&#39;m currently looking to join a cross-functional team
             <br />
           </span>
-          <span className="text-[17px] tracking-[0.06px]">
+          <span className="text-[17px] tracking-[0.17px] leading-[28px]">
             that values improving people&#39;s lives through accessible design
           </span>
         </div>
 
-        <div className="absolute top-0 left-[503px] h-[31px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-[#a261ff] text-2xl text-center tracking-[0.48px] leading-[31px] whitespace-nowrap">
+        <div className="absolute top-0 left-[503px] h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-bold text-[#a261ff] text-2xl text-center tracking-[0.48px] leading-[36px] whitespace-nowrap">
           cross-functional
         </div>
 
@@ -468,7 +468,7 @@ export const Portfolio = (): JSX.Element => {
         />
 
         <div className="absolute top-[24px] left-2 w-[628px] h-[333px]">
-          <div className="absolute top-[126px] left-8 h-[108px] flex items-center justify-center [font-family:'Poppins',Helvetica] font-medium text-[#ccd6f6] text-lg tracking-[0] leading-[normal]">
+          <div className="absolute top-[126px] left-8 h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-normal text-[#ccd6f6]/90 text-lg tracking-[0.18px] leading-[28px]">
             A web app for visualizing personalized Spotify data. View your
             <br />
             top artists, top tracks, recently played tracks, and detailed audio
@@ -478,11 +478,11 @@ export const Portfolio = (): JSX.Element => {
             recommended tracks based on your existing playlists and more.
           </div>
 
-          <div className="absolute top-[19px] left-0 h-[51px] flex items-center justify-center [font-family:'Poppins',Helvetica] font-semibold text-[#ccd6f6] text-[34px] tracking-[0.68px] leading-[normal]">
+          <div className="absolute top-[19px] left-0 h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-bold text-[#ccd6f6] text-[34px] tracking-[0.68px] leading-[48px]">
             Example Project
           </div>
 
-          <div className="absolute top-0 left-0 h-6 flex items-center justify-center [font-family:'Poppins',Helvetica] font-semibold text-[#9757d3] text-base tracking-[0.32px] leading-[normal]">
+          <div className="absolute top-0 left-0 h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-bold text-[#9757d3] text-base tracking-[0.32px] leading-[24px] uppercase">
             Featured&nbsp;&nbsp;Project
           </div>
 
@@ -514,7 +514,7 @@ export const Portfolio = (): JSX.Element => {
         />
 
         <div className="absolute top-0 left-[501px] w-[675px] h-[329px]">
-          <div className="absolute top-[122px] left-[34px] h-[108px] flex items-center justify-center [font-family:'Poppins',Helvetica] font-medium text-[#ccd6f6] text-lg tracking-[0] leading-[normal]">
+          <div className="absolute top-[122px] left-[34px] h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-normal text-[#ccd6f6]/90 text-lg tracking-[0.18px] leading-[28px]">
             A web app for visualizing personalized Spotify data. View your
             <br />
             top artists, top tracks, recently played tracks, and detailed audio
@@ -524,11 +524,11 @@ export const Portfolio = (): JSX.Element => {
             recommended tracks based on your existing playlists and more.
           </div>
 
-          <div className="absolute top-[19px] left-[382px] h-[51px] flex items-center justify-center [font-family:'Poppins',Helvetica] font-semibold text-[#ccd6f6] text-[34px] tracking-[0.68px] leading-[normal]">
+          <div className="absolute top-[19px] left-[382px] h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-bold text-[#ccd6f6] text-[34px] tracking-[0.68px] leading-[48px]">
             Example Project
           </div>
 
-          <div className="absolute top-0 left-[523px] h-6 flex items-center justify-center [font-family:'Poppins',Helvetica] font-semibold text-[#9757d3] text-base tracking-[0.32px] leading-[normal]">
+          <div className="absolute top-0 left-[523px] h-auto flex items-center justify-center [font-family:'Poppins',Helvetica] font-bold text-[#9757d3] text-base tracking-[0.32px] leading-[24px] uppercase">
             Featured&nbsp;&nbsp;Project
           </div>
 
@@ -552,12 +552,12 @@ export const Portfolio = (): JSX.Element => {
         </div>
       </section>
 
-      <footer className="absolute top-[3905px] left-[458px]">
-        <h2 className="h-[45px] [font-family:'Preahvihear',Helvetica] font-normal text-[25px] tracking-[0.50px] flex items-center justify-center text-white leading-[normal]">
+      <footer className="absolute top-[3905px] left-[458px] z-10">
+        <h2 className="h-auto [font-family:'Preahvihear',Helvetica] font-bold text-[25px] tracking-[0.50px] flex items-center justify-center text-white leading-[36px] mb-8">
           Contact
         </h2>
 
-        <div className="absolute top-[118px] left-0 h-[108px] flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white text-[15px] tracking-[0.30px] leading-[normal]">
+        <div className="absolute top-[118px] left-0 h-auto flex items-center justify-center [font-family:'Preahvihear',Helvetica] font-normal text-white/90 text-[15px] tracking-[0.30px] leading-[26px]">
           I&#39;m currently looking to join a cross-functional team that values
           improving people&#39;s lives
           <br />
@@ -565,7 +565,7 @@ export const Portfolio = (): JSX.Element => {
           connect.
           <br />
           <br />
-          ibrhaimmemon930@gmail.com
+          <span className="font-semibold text-white text-[16px]">ibrhaimmemon930@gmail.com</span>
         </div>
 
         <img
